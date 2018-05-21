@@ -1,0 +1,30 @@
+@media screen and (max-width: 854px) {
+.container{
+	    padding: 20px 10px 0px 10px;
+}
+.header,
+.main{
+	margin-bottom: 20px;
+}
+
+
+	.header .nav .menu li{
+  margin-left: 50px;
+}
+}
+
+@media screen and (max-width: 654px) {
+	.header .nav .menu li{
+  margin-left: 20px;
+}
+}
+
+@media screen and (max-width: 534px) {
+	.header .nav .menu li{
+  display: none;
+}
+ .item{
+ 	width: 100%;
+ }
+
+}
