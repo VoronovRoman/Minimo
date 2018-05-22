@@ -1,0 +1,18 @@
+@font-face {
+	font-family: "Ubuntu";
+	src: url("../fonts/Ubuntu/Ubuntu-Regular.eot");
+	src: url("../fonts/Ubuntu/Ubuntu-Regular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Ubuntu/Ubuntu-Regular.woff") format("woff"),
+	url("../fonts/Ubuntu/Ubuntu-Regular.ttf") format("truetype");
+		font-style: normal;
+		font-weight: normal;
+	}
+@font-face {
+	font-family: "Playfair";
+	src: url("../fonts/Playfair_Display/PlayfairDisplay-Regular.eot");
+	src: url("../fonts/Playfair_Display/PlayfairDisplay-Regular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Playfair_Display/PlayfairDisplay-Regular.woff") format("woff"),
+	url("../fonts/Playfair_Display/PlayfairDisplay-Regular.ttf") format("truetype");
+		font-style: normal;
+		font-weight: normal;
+	}

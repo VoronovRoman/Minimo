@@ -2,12 +2,19 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+
+	<meta property="og:title" content="Minimo"/>
+	<meta property="og:image" content="./img/logo.png"/>
+	<meta property="og:description" content=""/>
+
 	<title>Minimo</title>
 	
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
-
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="fonts/fonts.css">
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/media.css">
 
@@ -18,10 +25,12 @@
 			<header class="header">
 				<a href="#" class="logo" title="Logo"></a>
 				<nav class="nav">
+					<input type="checkbox" id="trigger" class="trigger">
+					<label for="trigger" class="hamb"></label>
 					<ul class="menu">
-						<li><a href="#">lifestyle</a></li>
+						<li><a href="#lifestyle">lifestyle</a></li>
 						<li><a href="#photodiary">photodiary</a></li>
-						<li><a href="#">music</a></li>
+						<li><a href="#music">music</a></li>
 						<li><a href="#">travel</a></li>
 					</ul>
 				</nav>
@@ -35,7 +44,7 @@
 				<a href="#" class="comment">leave a comment</a>
 			</section>
 
-			<section class="preview">
+			<section class="preview" id="lifestyle">
 				<div class="item">
 					<a href="#">
 						<img src="img/news/1.jpg" alt="lifestyle">
@@ -49,7 +58,7 @@
 					<a href="#">
 						<img src="img/news/2.jpg" alt="lifestyle">
 						<h2>lifestyle</h2>
-						<h3>More than just a music festival</h3>						
+						<h3>Life tastes better with coffee</h3>						
 					</a>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea </p>
 				</div>
@@ -57,8 +66,8 @@
 				<div class="item">
 					<a href="#">
 						<img src="img/news/3.jpg" alt="lifestyle">
-						<h2>lifestyle</h2>
-						<h3>More than just a music festival</h3>						
+						<h2>photodiary</h2>
+						<h3>American dream</h3>						
 					</a>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea </p>
 				</div>
@@ -66,8 +75,8 @@
 				<div class="item">
 					<a href="#">
 						<img src="img/news/4.jpg" alt="lifestyle">
-						<h2>lifestyle</h2>
-						<h3>More than just a music festival</h3>						
+						<h2>photodiary</h2>
+						<h3>A day exploring the Alps</h3>						
 					</a>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea </p>
 				</div>
@@ -77,15 +86,15 @@
 
 		</div>
 
-		<section class="subscribe">
-				<form action="send" class="form">
-					<legend>Sign up for our newsletter!</legend>
-					<div class="form-center">
-						<input type="text" type="email" placeholder="Enter a valid email address" required>
-						<a href="#" value="subscribe" name="email" class="btn-sub"></a>
-					</div>
-					
-				</form>
+		<section class="subscribe" id="music">
+			<form action="send" class="form">
+				<legend>Sign up for our newsletter!</legend>
+				<div class="form-center">
+					<input type="text" type="email" placeholder="Enter a valid email address" required>
+					<a href="#" value="subscribe" name="email" class="btn-sub"></a>
+				</div>
+
+			</form>
 		</section>
 
 		<div class="container">
@@ -94,7 +103,7 @@
 					<a href="#">
 						<img src="img/news/5.jpg" alt="lifestyle">
 						<h2>lifestyle</h2>
-						<h3>More than just a music festival</h3>						
+						<h3>Top 10 song for running</h3>						
 					</a>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea </p>
 				</div>
@@ -103,7 +112,7 @@
 					<a href="#">
 						<img src="img/news/6.jpg" alt="lifestyle">
 						<h2>lifestyle</h2>
-						<h3>More than just a music festival</h3>						
+						<h3>Cold winter days</h3>						
 					</a>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea </p>
 				</div>
@@ -118,8 +127,8 @@
 		<footer class="footer">
 			<div class="container">
 				<div class="security">
-					<p>Terms and conditions</p>
-					<p>Privacy</p>
+					<a href="#">Terms and conditions</a>
+					<a href="#">Privacy</a>
 				</div>
 
 				<div class="social">
